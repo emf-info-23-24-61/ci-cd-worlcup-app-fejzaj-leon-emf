@@ -5,5 +5,5 @@ WORKDIR /var/www/html
 COPY src/index.php .
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
-# changemen
+# changement
 EXPOSE 80
